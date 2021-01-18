@@ -1,0 +1,10 @@
+
+{%extends 'base.html' %}
+{% block title%}Questions{%endblock%}
+{% block content %}
+    <form action="/home">
+        <h2>The result is {{symbol}}{{result}}</h2> 
+        <p>{{currency}}</p>
+        <button>Home</button>
+    </form>
+{% endblock %}

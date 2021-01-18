@@ -1,0 +1,14 @@
+{%extends 'base.html' %}
+{% block title%}Questions{%endblock%}
+{% block content %}
+    <h2>Currency Converter</h2>
+    <form action="/next" method="POST">
+        Convert From: 
+        <input type=text placeholder ="USD" name = "convert_from">
+        Convert To: 
+        <input type=text placeholder ="GBP" name = "convert_to">
+        Amount: 
+        <input type=text placeholder ="100" name = "amount">
+        <button>Convert</button>
+    </form>
+{% endblock %}
