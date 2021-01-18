@@ -3,17 +3,17 @@
 Answer the following questions below:
 
 - What are important differences between Python and JavaScript?
-	1) Python tends toward the explict, while Javascript towards implicit.  So Python will throw errors when Javascript will throw undefined.
-	2) Indentation in Python is necessary, while Javascript needs brackets and semi-colons.
-	3) Python object is not a Javascript object (confusing), but Python dictionary is the equivalent to a Javascript object.  So while you can
+>	1) Python tends toward the explict, while Javascript towards implicit.  So Python will throw errors when Javascript will throw undefined.
+>	2) Indentation in Python is necessary, while Javascript needs brackets and semi-colons.
+>	3) Python object is not a Javascript object (confusing), but Python dictionary is the equivalent to a Javascript object.  So while you can
 	say nearly everything in both Javascript and Python are objects, that doesn't mean they are referring to the same thing.
 
 - Given a dictionary like ``{"a": 1, "b": 2}``: , list two ways you
   can try to get a missing key (like "c") *without* your programming
   crashing.
 
-	1) dict.get("c") will return None, but you can pass in a second value to return if nothing is found
-	2) You can use try/except
+>	1) dict.get("c") will return None, but you can pass in a second value to return if nothing is found
+>	2) You can use try/except
 
 - What is a unit test?
 >Small test, checking a single function or component
