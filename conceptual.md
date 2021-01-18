@@ -16,7 +16,7 @@ Answer the following questions below:
 	2) You can use try/except
 
 - What is a unit test?
-	Small test, checking a single function or component
+Small test, checking a single function or component
 
 - What is an integration test?
 	Medium-size test, checking how multiple functions or components interact
